@@ -1,7 +1,5 @@
 FROM node:8
 
-WORKDIR /vk6palautus
-
 COPY package*.json ./
 
 RUN npm install
