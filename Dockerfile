@@ -7,7 +7,7 @@ RUN npm install
 #bundle
 COPY . .
 
-# Make port 3000 available to the world outside this container
-EXPOSE 3000
+# Make port 8080 available to the world outside this container
+EXPOSE 8080
 
-CMD ["node","app.js"]
+CMD [ "npm", "start" ]
